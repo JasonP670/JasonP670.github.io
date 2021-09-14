@@ -1,12 +1,14 @@
 .main-footer {
   background: #000;
   color: #fff;
+
   &__upper {
     display: flex;
     justify-content: space-between;
-    padding: 8rem 0;
+    align-items: center;
+    padding: 3rem 0;
     @include respond(tab-port) {
-      padding: 6rem 0;
+      padding: 3rem 0;
     }
     @include respond(phone) {
       display: block;
@@ -15,8 +17,8 @@
 
   &__row-1 {
     order: 2;
-    @include respond(tab-port) {
-      margin-bottom: 5rem;
+    @include respond(phone) {
+      margin-bottom: 1rem;
     }
   }
   &__row-2 {
@@ -35,10 +37,6 @@
     line-height: 1.7;
   }
 
-  &__social-cont {
-    margin-top: 2rem;
-  }
-
   &__icon {
     margin-right: 1rem;
     width: 2.5rem;
@@ -48,7 +46,7 @@
   }
 
   &__lower {
-    padding: 4rem 0;
+    padding: 1.5rem 0;
     border-top: 1px solid #444;
     color: #eee;
     font-size: 1.2rem;
@@ -60,7 +58,7 @@
       margin-left: 2px;
     }
     @include respond(tab-port) {
-      padding: 3.5rem 0;
+      padding: 1.5rem 0;
     }
   }
 }

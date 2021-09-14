@@ -125,6 +125,12 @@ textarea {
       font-size: 1.8rem; } }
   .heading-sec__sub--lt {
     color: #eee; }
+    .heading-sec__sub--lt:nth-child(3) {
+      margin-top: 5.8rem;
+      font-size: 2.8rem; }
+    .heading-sec__sub--lt:nth-child(4) {
+      margin-top: 3rem;
+      font-size: 2.8rem; }
 
 .heading-sm {
   font-size: 2.2rem;
@@ -147,7 +153,14 @@ textarea {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15); }
   .btn--bg {
     padding: 1.5rem 8rem;
-    font-size: 2rem; }
+    font-size: 2rem;
+    width: 240px; }
+    .btn--bg:first-child {
+      margin-right: 25px; }
+      @media only screen and (max-width: 37.5em) {
+        .btn--bg:first-child {
+          margin-right: 0;
+          margin-bottom: 25px; } }
   .btn--med {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
@@ -589,18 +602,19 @@ textarea {
   .main-footer__upper {
     display: flex;
     justify-content: space-between;
-    padding: 8rem 0; }
+    align-items: center;
+    padding: 3rem 0; }
     @media only screen and (max-width: 56.25em) {
       .main-footer__upper {
-        padding: 6rem 0; } }
+        padding: 3rem 0; } }
     @media only screen and (max-width: 37.5em) {
       .main-footer__upper {
         display: block; } }
   .main-footer__row-1 {
     order: 2; }
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 37.5em) {
       .main-footer__row-1 {
-        margin-bottom: 5rem; } }
+        margin-bottom: 1rem; } }
   .main-footer__row-2 {
     width: 40%;
     order: 1;
@@ -613,15 +627,13 @@ textarea {
     color: #eee;
     font-size: 1.5rem;
     line-height: 1.7; }
-  .main-footer__social-cont {
-    margin-top: 2rem; }
   .main-footer__icon {
     margin-right: 1rem;
     width: 2.5rem; }
     .main-footer__icon--mr-none {
       margin-right: 0; }
   .main-footer__lower {
-    padding: 4rem 0;
+    padding: 1.5rem 0;
     border-top: 1px solid #444;
     color: #eee;
     font-size: 1.2rem;
@@ -633,7 +645,7 @@ textarea {
       margin-left: 2px; }
     @media only screen and (max-width: 56.25em) {
       .main-footer__lower {
-        padding: 3.5rem 0; } }
+        padding: 1.5rem 0; } }
 
 .skills {
   display: flex;
