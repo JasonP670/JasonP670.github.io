@@ -102,6 +102,9 @@
       @include respond(phone) {
         font-size: 2.4rem;
       }
+      &:nth-child(3) {
+        margin-top: 3rem;
+      }
     }
     &-details-para {
       font-size: 1.8rem;
@@ -117,6 +120,7 @@
         margin-bottom: 4rem;
       }
     }
+  
   }
 }
 

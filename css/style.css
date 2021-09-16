@@ -154,7 +154,7 @@ textarea {
   .btn--bg {
     padding: 1.5rem 8rem;
     font-size: 2rem;
-    width: 240px; }
+    width: 275px; }
     .btn--bg:first-child {
       margin-right: 25px; }
       @media only screen and (max-width: 37.5em) {
@@ -267,6 +267,8 @@ textarea {
       @media only screen and (max-width: 37.5em) {
         .about__content-title {
           font-size: 2.4rem; } }
+      .about__content-title:nth-child(3) {
+        margin-top: 3rem; }
     .about__content-details-para {
       font-size: 1.8rem;
       color: grey;
