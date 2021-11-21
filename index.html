@@ -8,7 +8,12 @@
     <meta name="description" content="Portfolio Jason Petersen" />
 
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/png/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/png/favicon-32x32.png"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -79,20 +84,29 @@
     </header>
     <section class="home-hero">
       <div class="home-hero__content">
-        <h1 class="heading-primary">Hey, My name is <br>Jason Petersen</h1>
+        <h1 class="heading-primary">Hey, My name is <br />Jason Petersen</h1>
         <div class="home-hero__info">
           <p class="text-primary">
-            I'm a husband, father, pilot and now a web developer.<br> I'm super excited to start my first job as a developer!
+            I'm a husband, father, pilot and now a web developer.<br />
+            I'm super excited to start my first job as a developer!
           </p>
         </div>
         <div class="home-hero__cta">
           <a href="./#projects" class="btn btn--bg">Projects</a>
-          <a href="./assets/pdf/Jason's Web Developer Resume.pdf" class="btn btn--bg">Resume</a>
+          <a
+            href="./assets/pdf/Jason's Web Developer Resume.pdf"
+            class="btn btn--bg"
+            >Resume</a
+          >
         </div>
       </div>
       <div class="home-hero__socials">
         <div class="home-hero__social">
-          <a href="https://www.linkedin.com/in/jasonp670/" target="_blank" class="home-hero__social-icon-link">
+          <a
+            href="https://www.linkedin.com/in/jasonp670/"
+            target="_blank"
+            class="home-hero__social-icon-link"
+          >
             <img
               src="./assets/png/linkedin-ico.png"
               alt="icon"
@@ -101,7 +115,11 @@
           </a>
         </div>
         <div class="home-hero__social">
-          <a href="https://www.github.com/jasonp670" target="_blank" class="home-hero__social-icon-link">
+          <a
+            href="https://www.github.com/jasonp670"
+            target="_blank"
+            class="home-hero__social-icon-link"
+          >
             <img
               src="./assets/png/github-ico.png"
               alt="icon"
@@ -111,8 +129,11 @@
         </div>
         <div class="home-hero__social">
           <a
-            href="https://www.instagram.com/jason_n_tiff/" target="_blank"
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+            href="https://www.instagram.com/jason_n_tiff/"
+            target="_blank"
+            class="
+              home-hero__social-icon-link home-hero__social-icon-link--bd-none
+            "
           >
             <img
               src="./assets/png/insta-ico.png"
@@ -143,13 +164,15 @@
                 Hey! It's
                 <strong>Jason Petersen</strong>
                 and I'm a <strong> Frontend Web Developer </strong> located in
-                Provo, Utah. I love starting with a design and a <strong>blank canvas</strong>,
-                applying some <strong>hard work</strong> and a little love to turn that canvas 
-                into a <strong>beautiful</strong>, interactive user interface. 
+                Provo, Utah. I love starting with a design and a
+                <strong>blank canvas</strong>, applying some
+                <strong>hard work</strong> and a little love to turn that canvas
+                into a <strong>beautiful</strong>, interactive user interface.
               </p>
               <p class="about__content-details-para">
-                I'm a pilot turned web developer. I bring some unique experiences and a different view
-                on problem solving. I am good under pressure, can think on my feet, and possess great 
+                I'm a pilot turned web developer. I bring some unique
+                experiences and a different view on problem solving. I am good
+                under pressure, can think on my feet, and possess great
                 communication skills.
               </p>
 
@@ -163,18 +186,21 @@
             >
           </div>
           <div class="about__content-skills">
-            <h3 class="about__content-title"> Programming Skills</h3>
+            <h3 class="about__content-title">Programming Skills</h3>
             <div class="skills">
               <div class="skills__skill">HTML</div>
               <div class="skills__skill">CSS</div>
               <div class="skills__skill">JavaScript</div>
               <div class="skills__skill">Bootstrap</div>
-              <div class="skills__skill">Flexbox</div>
               <div class="skills__skill">React</div>
-              <div class="skills__skill">SASS</div>
+              <div class="skills__skill">Redux</div>
+              <div class="skills__skill">Node.JS</div>
+              <div class="skills__skill">Express</div>
+              <div class="skills__skill">PostgreSQL</div>
+              <div class="skills__skill">SQL</div>
+
               <div class="skills__skill">Git</div>
               <div class="skills__skill">Python</div>
-              <div class="skills__skill">Node.JS</div>
             </div>
             <h3 class="about__content-title">Soft Skills</h3>
             <div class="skills">
@@ -204,6 +230,41 @@
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
+                src="./assets/jpeg/mini-reddit.jpg"
+                alt="mini-reddit"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Mini Reddit</h3>
+              <p class="projects__row-content-desc">
+                This website takes data from reddit's public .json api to
+                display posts. It shows the title of the post, the author,
+                number of comments, and number of up votes. Visitors to the site
+                can choose from a selection of subreddits to display posts from
+                that subreddit. The site is responsive to work seamlessly on
+                various screen sizes. This site is made using react and redux.
+              </p>
+              <div>
+                <a
+                  href="https://minified-reddit.netlify.app/"
+                  class="btn btn--med btn--theme dynamicBgClr"
+                  target="_blank"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/JasonP670/reddit-client"
+                  class="btn btn--med btn--theme dynamicBgClr"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
                 src="./assets/jpeg/iquote.jpg"
                 alt="Software Screenshot"
                 class="projects__row-img"
@@ -211,10 +272,13 @@
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Inspirational Quote Generator</h3>
+              <h3 class="projects__row-content-title">
+                Inspirational Quote Generator
+              </h3>
               <p class="projects__row-content-desc">
-                This is an Inspirational quote genterator. It uses an online api to generate random quotes.
-                It includes buttons to share that quote on twitter and to generate a new quote. 
+                This is an Inspirational quote genterator. It uses an online api
+                to generate random quotes. It includes buttons to share that
+                quote on twitter and to generate a new quote.
               </p>
               <a
                 href="./InspirationalQuotes"
@@ -236,10 +300,10 @@
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">To-Do List</h3>
               <p class="projects__row-content-desc">
-                A todo list made in React, it saves the to do items in local storage.
-                When the user checks the checkbox the item receives a strike through. 
-                Each item can be deleted individually, or all items that are checked off can 
-                be deleted.
+                A todo list made in React, it saves the to do items in local
+                storage. When the user checks the checkbox the item receives a
+                strike through. Each item can be deleted individually, or all
+                items that are checked off can be deleted.
               </p>
               <a
                 href="./to-do"
@@ -261,13 +325,13 @@
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">Scoreboard</h3>
               <p class="projects__row-content-desc">
-                The Scoreboard App was made using React. 
-                There's a list of players, which can be added to using the input at the bottom. 
-                At the top of the page it shows the total number of players.
+                The Scoreboard App was made using React. There's a list of
+                players, which can be added to using the input at the bottom. At
+                the top of the page it shows the total number of players.
                 There's an option to increase or decrease each players score.
-                Updating the score will also update a total score at the top. 
-                Also at the top of the page there is a stopwatch.
-                When a player has the highest score, a crown will appear next to their name. 
+                Updating the score will also update a total score at the top.
+                Also at the top of the page there is a stopwatch. When a player
+                has the highest score, a crown will appear next to their name.
                 The crown will transfer to another player if they take the lead.
               </p>
               <a
@@ -286,18 +350,22 @@
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
-            To get in contact please call or send an email. Alternatively, you could fill out the form and I can get
-            in touch with you. 
+            To get in contact please call or send an email. Alternatively, you
+            could fill out the form and I can get in touch with you.
           </span>
           <span class="heading-sec__sub heading-sec__sub--lt">
-            Email  |  JasonP670@gmail.com
+            Email | JasonP670@gmail.com
           </span>
           <span class="heading-sec__sub heading-sec__sub--lt">
-            Phone  |  801 854-3833
-          </span> 
+            Phone | 801 854-3833
+          </span>
         </h2>
         <div class="contact__form-container">
-          <form action="https://formspree.io/f/xgerdovo" method="POST" class="contact__form">
+          <form
+            action="https://formspree.io/f/xgerdovo"
+            method="POST"
+            class="contact__form"
+          >
             <div class="contact__form-field">
               <label class="contact__form-label" for="name">Name</label>
               <input
@@ -347,21 +415,33 @@
               <span>Social</span>
             </h2> -->
             <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jasonp670/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/jasonp670/"
+              >
                 <img
                   class="main-footer__icon"
                   src="./assets/png/linkedin-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="https://www.github.com/jasonp670">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.github.com/jasonp670"
+              >
                 <img
                   class="main-footer__icon"
                   src="./assets/png/github-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/jason_n_tiff/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/jason_n_tiff/"
+              >
                 <img
                   class="main-footer__icon main-footer__icon--mr-none"
                   src="./assets/png/insta-ico.png"
@@ -380,7 +460,7 @@
         </div>
 
         <div class="main-footer__lower">
-          &copy; Copyright 2021.  |   Jason Petersen
+          &copy; Copyright 2021. | Jason Petersen
         </div>
       </div>
     </footer>
