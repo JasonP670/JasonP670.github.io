@@ -1,2 +1,2 @@
 # My Portfolio
-See it live at https://jasonp670.github.io/
+See it live [jasonp670.github.io] (https://jasonp670.github.io/)
